@@ -1,0 +1,10 @@
+---
+- name: Configure IPv6 support
+  sysctl: >
+    name={{ item }}
+    value={{ ipv6_enabled | ternary(0,1) }}
+    state=present
+    reload=yes
+  with_items:
+    - "net.ipv6.conf.all.disable_ipv6"
+    - "net.ipv6.conf.default.disable_ipv6"
