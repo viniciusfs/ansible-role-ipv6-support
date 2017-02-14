@@ -6,7 +6,7 @@ Configures IPv6 support in CentOS/RHEL systems.
 ## Role Variables
 
 * `ipv6_enabled`:
-    - Description: Enable service at boot time
+    - Description: Enables IPv6 support
     - Values: `True | False`
     - Default: `False`
 
