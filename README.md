@@ -1,5 +1,7 @@
 # Ansible role: IPv6 Support
 
+[![Build Status](https://travis-ci.org/viniciusfs/ansible-role-ipv6-support.svg?branch=master)](https://travis-ci.org/viniciusfs/ansible-role-ipv6-support)
+
 Configures IPv6 support in CentOS/RHEL systems.
 
 
